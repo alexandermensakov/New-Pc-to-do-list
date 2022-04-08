@@ -1,0 +1,93 @@
+.page{
+    background-color:white;
+    width: 100%;
+    height: 180vh;
+    justify-content: center;
+    display: flex;
+}
+.text{
+    width: 100%;
+   
+}
+.under-header{
+width: 95%;
+margin: 5px 0px;
+
+}
+
+
+.quest{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     width: 100%;
+    
+}
+.task-header{
+    width: 95%;
+    margin: 5px;
+}
+.box{
+    background-color: rgba(152, 146, 146, 0.577);
+    width: 60%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+
+
+.text-box{
+    background-color: rgb(56, 56, 238);
+    color: white;
+    width: 80%;
+  padding: 10px;
+    border-radius: 5px;
+    border: solid 1px rgb(69, 68, 68);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 10px;
+    margin: 10px;
+}
+
+h2{
+    color: white;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+span{
+    width: 5%;
+}
+.material-icons:hover{
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
